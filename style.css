@@ -14,6 +14,7 @@ header {
    z-index: 100;
    display: flex;
    align-items: center;
+   font-size: 20px;
 }
 
 
@@ -29,18 +30,12 @@ header {
   font-style: oblique;
 }
 
-.logo {
-   font-size: 24px;
-   font-weight: bold;
-   border-radius: 7px;
-   margin-left: 70px; 
-}
-
-
 .logo-img {
-   width: 100px;
+   width: 300px;
    height: auto;
    border-radius: 7px;
+   margin-left: 50px;
+   padding: 2%;
 }
 
 
@@ -64,11 +59,11 @@ header {
 
 .nav-links li a:hover{
   color: rgb(173, 64, 247);
-  font-size: large;
+  font-size: 23px;
   font-style: initial;
 }
 .content {
-   margin-top: 80px; 
+   margin-top: 0px; 
 }
 
 
@@ -102,25 +97,21 @@ header {
   text-align: center;
   justify-content: center;
   width: 100vw;
-  height: 80vw;
-  background-image: url("https://www.10wallpaper.com/wallpaper/3840x2400/1801/Office_laptop_programming_coffee_4K_3840x2400.jpg");
+  height: 50vw;
+  background-image: url("https://i.ibb.co/HpW9KCp/Office-laptop-programming-coffee-4-K-3840x2400-fotor-202310187354.jpg");
   background-repeat: no-repeat;
   color: #f5f5f5;
   background-size: cover;
 
 }
 
-.inicio::before {
-  opacity: 0.5;
-}
-
 .inicio h1 {
-  padding: 3%;
+  padding: 10% 0% 3% 0%;
   font-size: 50px;
 }
 
 .inicio p {
-  padding: 3% 7% 3% 7%;
+  padding: 0% 15% 3% 15%;
   font-size: 30px;
 }
 
@@ -136,12 +127,13 @@ header {
 }
 
 .matricular:hover {
-  background-color: #6aa3df; 
+  background-color: #162544; 
 }
 
 main {
     
 }
+
 
 footer {
     width: 100%;
